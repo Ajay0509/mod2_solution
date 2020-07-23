@@ -1,6 +1,89 @@
-.menu .inner h1{
-  color:red;
+*{
+    box-sizing:border-box;
+    padding:0px;
+    margin:0px;
 }
-body{
-  background-color:peachpuff;
+h1{
+      margin-bottom:15px;
+      text-align:center;
+}
+.c1 span{
+       background-color:#c25bb9;      
+}
+.c2 span{
+       background-color:#d13636;
+       color:#fff;      
+}
+.c3 span{
+       background-color:#d1a536;      
+}
+span{
+          text-align:right;
+          border:1px solid black;
+          float:right;
+          font-size:30px;
+          border-top-right-radius:5px;
+}
+p{
+          padding-left:8px;
+          padding-right:8px;
+  }
+.menu {
+             border:1px solid black;
+             border-radius:5px;
+}
+.menu{
+            width:100%;
+}
+p{
+    clear:right;
+}
+
+@media (min-width:992px)
+{
+   .menu
+  {
+       background-color:#919e9d;
+       margin-bottom:10px;
+       float:left;
+       width:31.5%;
+       margin-right:10px;
+    }
+   .menu c1
+  {
+       margin-left:15px;
+   }
+}
+
+@media (min-width:768px) and (max-width:991px)
+{
+       .menu .c1, .menu .c2
+       {
+          background-color:#919e9d;
+          margin-bottom:10px;
+          float:left;
+          width:48%;
+          margin-left:10px;
+        }
+       .menu .c3
+       {
+         background-color:#919e9d;
+          margin-bottom:10px;
+          float:left;
+          width:97%;
+          margin-left:10px;
+        }
+}
+
+@media (min-width:51px) and (max-width:767px)
+{
+         .menu 
+         {
+            background-color:#919e9d;
+            margin-bottom:10px;
+            float:left;
+            width:96%;
+            margin-left:10px;
+            margin-left:10px;
+         }
 }
